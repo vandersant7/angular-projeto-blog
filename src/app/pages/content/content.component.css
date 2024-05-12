@@ -1,6 +1,5 @@
 .container__content {
   margin-top: 20px;
-  border: 1px solid white;
   width: 100%;
   height: 100%;
   height: 100vh;
@@ -9,12 +8,10 @@
   align-items: center;
 }
 
-.content__cover {
-  border: 1px solid coral;
-}
+
 
 .content__cover > img {
-  border: 1px solid red;
+  border: 3px solid gray;
   border-radius: 5px;
   width: 500px;
   min-width: 500px;
@@ -26,5 +23,6 @@
 }
 
 .content__description > p {
+  margin-top: 20px;
   color: grey;
 }
