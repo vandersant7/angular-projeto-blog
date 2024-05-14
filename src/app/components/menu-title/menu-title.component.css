@@ -8,6 +8,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .menu__title__container > hr {

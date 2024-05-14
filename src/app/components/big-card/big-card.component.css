@@ -7,20 +7,42 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
+
+  @media (max-width: 768px) {
+    margin: 0 20px;
+    width: 300px;
+  }
 }
 
 .big-card__title > h1 {
   margin-top: .9375rem;
   font-size: 1.25rem;
+
+  @media (max-width: 576px) {
+    font-size: 1rem;
+  }
 }
 
 .big-card__description > p {
   margin-top: .625rem;
   color: grey;
+
+@media (max-width: 768px) {
+  margin-bottom: 50px;
+  padding: 2%;
+}
 }
 
 .big-card__picture > img {
   width: 100%;
   min-width: 350px;
   object-fit: cover;
+
+  @media (max-width: 576px) {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+  }
 }
